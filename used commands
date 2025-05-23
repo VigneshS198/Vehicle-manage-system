@@ -1,0 +1,30 @@
+# used commands
+
+php spark make:migration CreateUsersTable          
+php spark make:migration CreateRolesTable          
+php spark make:migration CreatePermissionsTable
+php spark make:migration CreateRolePermissionsTable
+php spark make:migration AddRoleIdForeignKeyToUsers
+php spark make:migration CreateProductTable
+php spark make:migration CreatePurchaseOrderTable
+php spark make:migration CreateVehicleTable
+php spark make:migration CreateSideMenuTable
+
+# composer require codeigniter4/shield
+
+php spark make:seeder SuperAdminSeeder
+php spark make:seeder roles
+php spark make:seeder PermissionsSeeder
+php spark make:seeder RolePermissionsSeeder
+php spark make:seeder SideMenuSeeder
+
+php spark db:seed SuperAdminSeeder
+php spark db:seed SideMenuSeeder
+php spark db:seed PermissionsSeeder
+
+# php spark make:seeder MasterSeeder
+
+# php spark shield:setup
+
+php spark make:model User --suffix
+php spark make:model Role --suffix

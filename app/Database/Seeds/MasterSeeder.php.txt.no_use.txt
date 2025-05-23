@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Database\Seeds;
+
+use CodeIgniter\Database\Seeder;
+
+class MasterSeeder extends Seeder
+{
+    public function run()
+    {
+        $seederFiles = glob(APPPATH . 'Database/Seeds/*.php');
+
+        foreach ($seederFiles as $file) {
+            $seederClass = basename($file, '.php');
+
+            if ($seederClass === 'MasterSeeder') {
+                continue;
+            }
+
+            $this->call("App\\Database\\Seeds\\$seederClass");
+        }
+    }
+}
