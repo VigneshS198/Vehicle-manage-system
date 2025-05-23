@@ -92,10 +92,10 @@ Upon login, users are directed to their role-specific dashboards.
 Here are some screenshots of the application in action:
 
 ### Admin login
-![Admin login](https://github.com/VigneshS198/Vehicle-manage-system/raw/main/videos/Screenshot 2025-05-23 135537.png)
+![Admin login](https://github.com/VigneshS198/Vehicle-manage-system/raw/main/videos/admin.png)
 
 ### Guard login
-![Guard login](https://github.com/VigneshS198/Vehicle-manage-system/raw/main/videos/Screenshot 2025-05-23 135607.png)
+![Guard login](https://github.com/VigneshS198/Vehicle-manage-system/raw/main/videos/guard.png)
 
 📽️ Demo
 
