@@ -103,5 +103,5 @@ Watch the video demo of the application in action:
 ➡️ [Watch Video](https://github.com/VigneshS198/Vehicle-manage-system/raw/refs/heads/main/videos/2025-05-23%2012-51-51.mp4)
 
 
-➡️ [Click here to download or view the demo video](https://github.com/VigneshS198/Vehicle-manage-system/raw/refs/heads/main/videos/2025-05-23%2012-51-51.mp4)
+➡️ [Click here to download or view the demo video](https://github.com/VigneshS198/Vehicle-manage-system/raw/refs/heads/main/videos/demo.mp4)
 
