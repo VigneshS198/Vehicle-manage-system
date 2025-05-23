@@ -17,8 +17,8 @@ class RolePermissionsSeeder extends Seeder
         $rolePermissionsMap = [
             1 => $allPermissions, // Super Admin - all permissions
             2 => [1, 2, 4, 5],    // Admin - selected permissions (e.g., vehicle and product management)
-            3 => [2, 5],          // User - view permissions only
-            4 => [],              // Viewer - no permissions
+            3 => [4, 5, 6 ],          // User - view permissions only
+            4 => [1,2,3],              // Viewer - no permissions
         ];
 
         // Prepare insert data

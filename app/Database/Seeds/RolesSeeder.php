@@ -35,7 +35,7 @@ class RolesSeeder extends Seeder
                 'updated_at'       => date('Y-m-d H:i:s'),
             ],
             [
-                'name'             => 'Viewer',
+                'name'             => 'gaurd',
                 'guard_name'       => 'web',
                 'is_default'       => 0,
                 'is_service_staff' => 0,

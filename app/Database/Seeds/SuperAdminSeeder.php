@@ -59,11 +59,11 @@ class SuperAdminSeeder extends Seeder
                     'first_name'    => 'Guard',
                     'last_name'     => 'User',
                     'username'      => 'guard',
-                    'email'         => 'viewer@example.com',
+                    'email'         => 'guard@example.com',
                     'mobile_number' => '4567890123',
                     'profile_photo' => null,
                     'password'      => password_hash('password', PASSWORD_BCRYPT),
-                    'role_id'       => 3, // Viewer
+                    'role_id'       => 4, // Viewer
                     'status'        => 'active',
                     'created_at'    => Time::now(),
                     'updated_at'    => Time::now(),
